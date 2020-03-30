@@ -7,22 +7,22 @@
 #------------------------------------------------------------------------------
 # Defined as part of the CD/CI Env Variables:
 #
-# CD_DOCKER_USERNAME
+export CD_DOCKER_USERNAME="mjhengst"
 # A DockerHub username to be used for uploading the build.
 #
-# CD_DOCKER_PASSWORD
+export CD_DOCKER_PASSWORD="nsgxKWm7b7a!UHEmmY7Bzf4ZnbyQVG&5idi@al^vpM5V3HUQPlVHrobJZ0Qz"
 # A DockerHub password to be used for uploading the build.
 #
-# CD_DOCKER_REPO
+export CD_DOCKER_REPO="mjhengst/letsconnect"
 # A DockerHub repository. By default the CD_REF_SLUG is also used as the docker repo.
 #
-# CD_BUILD_ALL
+CD_BUILD_ALL=true
 # As the build is supposed to be done only for master (for a nightly deployments) and for releases
 # (like 'release-2.0.5' for production deployments), it is additionally required to include this
 # variable in order to build any other brnach, as it may be required for testing or reviewing work
 # as part of the development process.
 #
-
+echo $CD_DOCKER_USERNAME
 display_usage() {
   echo "This script should be used as part of a CI strategy."
   echo -e "Usage:\n  build_image.sh [ARGUMENTS]"
