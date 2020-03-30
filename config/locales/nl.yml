@@ -272,7 +272,7 @@ nl:
       approve:
         info: Uw account is goedgekeurd.
         signin: "Om toegang te krijgen tot uw persoonlijke kamers, klikt u op de onderstaande knop en logt u in."
-        signin_link: Aanmelden
+        signin_link: Inloggen
         signup:
           info: Een nieuwe gebruiker heeft zich aangemeld om Greenlight te gebruiken.
           more-info: "Om deze gebruiker toegang te geven tot Greenlight, moet u zijn account goedkeuren in de organisatie-instellingen."
